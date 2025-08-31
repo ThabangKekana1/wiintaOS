@@ -257,7 +257,7 @@ export function LandingPage({ onAccountCreated }: LandingPageProps) {
                 >
                   {/* Main Heading */}
                   <div className="space-y-6">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-white leading-tight whitespace-nowrap">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-white leading-tight whitespace-nowrap w-fit mx-auto">
                       Welcome to{' '}
                       <span 
                         className="font-medium inline-block"
