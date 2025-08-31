@@ -244,7 +244,7 @@ export function LandingPage({ onAccountCreated }: LandingPageProps) {
 
         {/* Main Content */}
         <div className="pt-16 flex-1 flex items-center justify-center">
-          <div className="max-w-lg w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl w-full mx-auto px-4 sm:px-6 lg:px-8">
             <AnimatePresence mode="wait">
               {!showLoginForm ? (
                 <motion.div
@@ -256,8 +256,8 @@ export function LandingPage({ onAccountCreated }: LandingPageProps) {
                   className="text-center space-y-12"
                 >
                   {/* Main Heading */}
-                  <div className="space-y-6">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-white leading-tight">
+                  <div className="space-y-6 flex flex-col items-center">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-white leading-tight whitespace-nowrap text-center">
                       Welcome to{' '}
                       <span 
                         className="font-medium inline-block"
